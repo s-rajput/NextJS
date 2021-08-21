@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/components/*": ["components/*"]
+    },
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "experimentalDecorators": true,  //required for inversify
+    "emitDecoratorMetadata": true   //required for inversify
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"
+    , "backend/pet/.ts", "components/mui-nextlink/MuiNextLink.js" ],
+  "exclude": ["node_modules"]
+}

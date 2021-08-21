@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders aboutpage unchanged 1`] = `
+<h1>
+  This is about us page
+</h1>
+`;
+
+exports[`renders homepage unchanged 1`] = `
+<h1>
+  This is about us page
+</h1>
+`;
